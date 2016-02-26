@@ -2,9 +2,9 @@
 
 return [
     'sandbox' => [
-        'host' => 'http://api.sb.Mataharimall.com',
+        'host' => '',
     ],
     'prod' => [
-        'host' => 'https://api.seller.Mataharimall.com',
+        'host' => '',
     ],
 ];

@@ -21,8 +21,6 @@ use Momo\Momo;
 
 ## How to ##
 
-Check **[API Seller Apiary](http://docs.apiforseller.apiary.io/)**, for available endpoints.
-
 ### Basic Usage ###
 
 ```sh
