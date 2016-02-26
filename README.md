@@ -1,22 +1,22 @@
-# Mataharimall Momo SDK #
+# Momo SDK #
 
-this is the PHP wrapper for Mataharimall Seller Center API.
+this is the PHP wrapper for Momo Mobile API.
 
 ## Installation ##
 
 ### Composer Installation ###
 
 ```sh
-$ composer require mataharimall/php-sdk
+$ composer require Momo/php-sdk
 ```
 
 ### Manual Installation ###
 download latest release & require 'autoload.php'.
 
 ```sh
-require "mataharimall-php-sdk/autoload.php";
+require "Momo-php-sdk/autoload.php";
 
-use Mataharimall\Mataharimall;
+use Momo\Momo;
 ```
 
 ## How to ##
@@ -26,17 +26,17 @@ Check **[API Seller Apiary](http://docs.apiforseller.apiary.io/)**, for availabl
 ### Basic Usage ###
 
 ```sh
-$mataharimall = new Mataharimall(API_TOKEN);
-$mataharimall->post($url , $parameter);
+$Momo = new Momo(API_TOKEN);
+$Momo->post($url , $parameter);
 
 //get headers
-$headers = $mataharimall->getResponseHeaders();
+$headers = $Momo->getResponseHeaders();
 
 //get response Http Code
-$httpCode = $mataharimall->getResponseCode();
+$httpCode = $Momo->getResponseCode();
 
 //get body
-$body = $mataharimall->getResponseBody();
+$body = $Momo->getResponseBody();
 
 ```
 ### Proxy Enabled ###
@@ -47,22 +47,22 @@ $request->setProxy([
      'CURLOPT_PROXYUSERPWD' => PROXY_USERPWD,
      'CURLOPT_PROXYPORT' => PROXY_PORT,
 ]);
-$mataharimall = new Mataharimall(API_TOKEN, $request);
-$results = $mataharimall->post($url , $parameter);
+$Momo = new Momo(API_TOKEN, $request);
+$results = $Momo->post($url , $parameter);
 ```
 
 ### Error Handling ###
 
 ```sh
 try {
-    $mataharimall = new Mataharimall(API_TOKEN);
-    $mataharimall->post($url, $parameter);
+    $Momo = new Momo(API_TOKEN);
+    $Momo->post($url, $parameter);
 } catch (MMException $e) {
     // print exception.
 }
 
-$result = $mataharimall->getResponseBody();
-if ($mataharimall->getResponseCode() == 200 && !empty($result)) {
+$result = $Momo->getResponseBody();
+if ($Momo->getResponseCode() == 200 && !empty($result)) {
     // success
 } else {
     // error

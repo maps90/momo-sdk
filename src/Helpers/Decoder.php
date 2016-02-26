@@ -1,5 +1,5 @@
 <?php
-namespace Mataharimall\Helpers;
+namespace Momo\Helpers;
 class Decoder
 {
     /**

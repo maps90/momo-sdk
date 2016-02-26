@@ -1,6 +1,6 @@
 <?php
 
-namespace Mataharimall;
+namespace Momo;
 
 class MMConfig
 {

@@ -1,14 +1,14 @@
 <?php
-namespace Mataharimall;
+namespace Momo;
 
 /**
- * class Mataharimall
+ * class Momo
  *
- * @package Mataharimall
+ * @package Momo
  *
  */
-use Mataharimall\Helpers\Decoder;
-class Mataharimall extends MMConfig
+use Momo\Helpers\Decoder;
+class Momo extends MMConfig
 {
     private $response;
     private $request;

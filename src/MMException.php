@@ -1,5 +1,5 @@
 <?php
-namespace Mataharimall;
+namespace Momo;
 
 class MMException extends \Exception
 {

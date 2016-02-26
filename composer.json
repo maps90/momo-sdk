@@ -1,10 +1,10 @@
 {
-    "name": "mataharimall/seller-sdk",
+    "name": "Momo/seller-sdk",
     "description": "PHP SDK for Seller Center API.",
     "authors": [
         {
             "name": "dimboy",
-            "email": "dimas.abdulaziiz@mataharimall.com"
+            "email": "dimas.abdulaziiz@Momo.com"
         }
     ],
     "require": {
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Mataharimall\\": "src"
+            "Momo\\": "src"
         }
     }
 }

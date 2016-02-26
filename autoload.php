@@ -6,7 +6,7 @@
  * @return void
  */
 spl_autoload_register(function ($class) {
-    $prefix = 'Mataharimall\\';
+    $prefix = 'Momo\\';
     $base_dir = __DIR__ . '/src/';
 
     $len = strlen($prefix);

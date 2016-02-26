@@ -14,7 +14,7 @@
         <env name="TEST_ENVIROMENT_HOST" value=""/>
     </php>
     <testsuites>
-        <testsuite name="Mataharimall PHP SDK Test Suite">
+        <testsuite name="Momo PHP SDK Test Suite">
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>

@@ -1,7 +1,7 @@
 <?php
-namespace Mataharimall;
+namespace Momo;
 
-use Mataharimall\Helpers\Curl;
+use Momo\Helpers\Curl;
 class MMRequest
 {
     private $MMcurl;
